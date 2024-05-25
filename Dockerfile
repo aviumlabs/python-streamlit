@@ -9,4 +9,6 @@ RUN apt-get update  && apt-get install -y \
     build-essential \
     openssl \
     git \
-    curl 
+    curl \
+    software-properties-common \
+    && apt clean
