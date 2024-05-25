@@ -1,9 +1,9 @@
-# A Node.js Repo
+# A Python Repo
 
 
 This repo builds a python 3.12.x docker image with Streamlit.
 
-This image is based on the Python3.12.x Alpine3.19.x docker image.   
+This image is based on the Python3.12.x Debian Bookworm Slim docker image.   
 
 
 ## Naming Convention
