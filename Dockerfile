@@ -11,4 +11,10 @@ RUN apt-get update  && apt-get install -y \
     git \
     curl \
     software-properties-common \
-    && apt clean
+    && apt clean \
+    && pip install --upgrade pip \
+    && pip install psycopg \
+    && pip install SQLAlchemy \
+    && pip install streamlit \
+    && pip install streamlit-authenticator \
+    && pip install streamlit-oauth
