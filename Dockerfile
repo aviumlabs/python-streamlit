@@ -15,8 +15,9 @@ RUN apt-get update  && apt-get install -y \
     && pip install --upgrade pip \
     && pip install joblib \
     && pip install psycopg \
-    && pip install SQLAlchemy \
+    && pip install scikit-learn \
     && pip install spacy \
+    && pip install SQLAlchemy \
     && pip install streamlit \
     && pip install streamlit-authenticator \
     && pip install streamlit-oauth
